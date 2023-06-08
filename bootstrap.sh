@@ -30,3 +30,6 @@ fi
 
 #####
 # Install apps
+nvm install 18
+
+brew bundle
