@@ -1,5 +1,9 @@
 brew "pure"
 
+cask "visual-studio-code"
+cask "sublime-merge"
+cask "dotnet-sdk"
+
 brew "coreutils"
 
 brew "git"
