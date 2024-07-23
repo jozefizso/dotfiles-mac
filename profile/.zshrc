@@ -121,4 +121,4 @@ prompt pure
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias k='exa -la'
+alias k='lsd -la'

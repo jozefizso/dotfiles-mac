@@ -8,7 +8,7 @@ brew "coreutils"
 
 brew "git"
 brew "gh"
-brew "exa"
+brew "lsd"
 brew "yarn"
 
 brew "make"
