@@ -17,19 +17,13 @@ echo "Updating Homebrew..."
 brew update
 
 #####
-# Setup nvm
-if ! command -v nvm >/dev/null; then
-  echo "Installing nvm"
+# Setup fnm
+if ! command -v fnm >/dev/null; then
+  echo "Installing fnm"
 
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-  [ -s "$NVM_DIR/zsh_completion" ] && \. "$NVM_DIR/zsh_completion"  # This loads nvm bash_completion
+  curl -fsSL https://fnm.vercel.app/install | bash
 fi
 
 #####
 # Install apps
-nvm install 18
-
 brew bundle
