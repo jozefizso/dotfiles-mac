@@ -80,7 +80,7 @@ plugins=(
     gitfast
     gh
     brew
-    nvm
+    fnm
     dotnet
     node
     swiftpm
