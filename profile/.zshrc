@@ -81,6 +81,7 @@ plugins=(
     gh
     brew
     fnm
+    uv
     dotnet
     node
     swiftpm

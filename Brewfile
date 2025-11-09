@@ -11,6 +11,7 @@ brew "gh"
 brew "lsd"
 brew "fnm"
 brew "yarn"
+brew "uv"
 
 brew "make"
 brew "cmake"
