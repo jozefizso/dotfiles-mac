@@ -1,0 +1,6 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+[*]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
