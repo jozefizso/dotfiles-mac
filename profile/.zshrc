@@ -72,7 +72,6 @@ ZSH_THEME=""
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    zsh-autosuggestions
     thefuck
     colored-man-pages
     dotenv
@@ -123,3 +122,27 @@ prompt pure
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias k='lsd -la'
+
+# pnpm
+export PNPM_HOME="/Users/izso/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# phpenv
+export PHPENV_ROOT="/Users/izso/.phpenv"
+if [ -d "${PHPENV_ROOT}" ]; then
+  export PATH="${PHPENV_ROOT}/bin:${PATH}"
+  eval "$(phpenv init -)"
+fi
+# phpenv end
+
+# Jira default actions
+export JIRA_DEFAULT_ACTION='browse'
+
+# Created by `pipx` on 2024-08-02 12:10:27
+export PATH="$PATH:/Users/izso/.local/bin"
+export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"
