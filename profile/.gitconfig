@@ -74,6 +74,8 @@
   filetrail = log --follow -p -w
   mergetrail = log --ancestry-path --merges
   unmerged = diff --name-only --diff-filter=U
+  resign = commit --amend --no-edit --gpg-sign
+
 
 [core]
   # Use Sublime as text editor
