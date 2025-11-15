@@ -1,0 +1,15 @@
+[user]
+  name = Jozef Izso
+  email = izso@cisco.com
+  signingkey = 1c650383a10551ffbf5b024016fc60c2e0647f0e
+
+[commit]
+  gpgsign = true
+[tag]
+  gpgSign = true
+
+[gpg]
+  program = gpg
+  format = x509
+[gpg "x509"]
+  program = smimesign
