@@ -1,0 +1,7 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bunx -y ccstatusline@2.0.23",
+    "padding": 0
+  }
+}
