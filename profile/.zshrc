@@ -127,6 +127,15 @@ prompt pure
 
 alias k='lsd -la'
 
+# Claude CLI with GitHub token pulled from 1Password
+claude() {
+  GITHUB_TOKEN_MCP="$(op read 'op://CLI/GITHUB_TOKEN_MCP/password')" command claude "$@"
+}
+# Codex CLI with GitHub token pulled from 1Password
+codex() {
+  GITHUB_TOKEN_MCP="$(op read 'op://CLI/GITHUB_TOKEN_MCP/password')" command codex "$@"
+}
+
 # pnpm
 export PNPM_HOME="/Users/izso/Library/pnpm"
 case ":$PATH:" in
