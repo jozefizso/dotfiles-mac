@@ -7,7 +7,9 @@ bearer_token_env_var = "GITHUB_TOKEN"
 
 [mcp_servers.sentry]
 url = "https://mcp.sentry.dev/mcp"
+startup_timeout_sec = 120
 
 [mcp_servers.atlassian]
 command = "npx"
 args = ["-y", "mcp-remote@latest", "https://mcp.atlassian.com/v1/sse"]
+startup_timeout_sec = 120
