@@ -84,6 +84,7 @@ plugins=(
     uv
     dotnet
     node
+    bun
     swiftpm
     vscode
     xcode
