@@ -74,6 +74,7 @@ ZSH_THEME=""
 plugins=(
     thefuck
     colored-man-pages
+    1password
     dotenv
     macos
     gitfast

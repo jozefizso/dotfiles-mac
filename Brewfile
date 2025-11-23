@@ -8,6 +8,7 @@ brew "coreutils"
 
 brew "git"
 brew "gh"
+brew "1password-cli"
 brew "lsd"
 brew "fnm"
 brew "yarn"
