@@ -3,5 +3,17 @@
     "type": "command",
     "command": "bunx -y ccstatusline@2.0.23",
     "padding": 0
+  },
+  "permissions": {
+    "deny": [
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/secrets/**)",
+      "Read(**/credentials/**)",
+      "Read(**/.aws/**)",
+      "Read(**/.ssh/**)",
+      "Read(**/docker-compose*.yml)",
+      "Read(./config/credentials.json)"
+    ]
   }
 }
