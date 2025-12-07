@@ -19,3 +19,5 @@ brew "cmake"
 
 brew "python3"
 brew "swiftlint"
+
+cask "font-jetbrains-mono-nerd-font"
