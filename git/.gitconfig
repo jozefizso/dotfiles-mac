@@ -148,5 +148,12 @@
   helper = !/opt/homebrew/bin/gh auth git-credential
 
 
+[gitbutler]
+  aiOpenAIKeyOption = butlerAPI
+  aiModelProvider = openai
+  aiAnthropicKeyOption = bringYourOwn
+  aiAnthropicModelName = claude-sonnet-4-0
+
+
 [includeIf "gitdir/i:~/Developer"]
   path = .gitconfig-cisco
