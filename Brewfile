@@ -5,6 +5,7 @@ cask "sublime-merge"
 cask "dotnet-sdk"
 
 brew "coreutils"
+brew "stow"
 
 brew "git"
 brew "gh"
