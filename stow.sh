@@ -8,3 +8,6 @@ stow lsd -t $HOME/
 
 # https://developers.openai.com/codex/cli/
 stow codex -t $HOME/
+
+# Ghostty
+stow ghostty -t $HOME/
