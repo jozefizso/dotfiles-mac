@@ -155,5 +155,8 @@
   aiAnthropicModelName = claude-sonnet-4-0
 
 
-[includeIf "gitdir/i:~/Developer"]
-  path = .gitconfig-cisco
+[includeIf "gitdir/i:~/Developer/"]
+  path = ~/.config/git/profile-cisco.gitconfig
+
+[includeIf "gitdir/i:~/Developer/Personal/"]
+  path = ~/.config/git/profile-personal.gitconfig

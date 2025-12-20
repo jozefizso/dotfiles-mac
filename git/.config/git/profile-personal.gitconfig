@@ -1,0 +1,13 @@
+[user]
+	name = Jozef Izso
+	email = jozef.izso@gmail.com
+	signingkey = AF4ECFBB38179D13
+
+[commit]
+  gpgsign = true
+[tag]
+  gpgSign = true
+
+[gpg]
+	program = gpg
+	format = openpgp
