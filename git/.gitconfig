@@ -154,6 +154,8 @@
   aiAnthropicKeyOption = bringYourOwn
   aiAnthropicModelName = claude-sonnet-4-0
 
+[include]
+  path = ~/.config/git/mergiraf.gitconfig
 
 [includeIf "gitdir/i:~/Developer/"]
   path = ~/.config/git/profile-cisco.gitconfig

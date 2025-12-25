@@ -15,6 +15,8 @@ brew "fnm"
 brew "yarn"
 brew "uv"
 
+brew "mergiraf"
+
 brew "make"
 brew "cmake"
 
