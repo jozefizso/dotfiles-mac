@@ -155,6 +155,7 @@
   aiAnthropicModelName = claude-sonnet-4-0
 
 [include]
+  path = ~/.config/git/difftastic.gitconfig
   path = ~/.config/git/mergiraf.gitconfig
 
 [includeIf "gitdir/i:~/Developer/"]
