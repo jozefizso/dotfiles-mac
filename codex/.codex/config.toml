@@ -2,7 +2,11 @@ model = "gpt-5.2"
 model_reasoning_effort = "medium"
 
 [features]
+web_search_request = true
 rmcp_client = true
+
+[sandbox_workspace_write]
+network_access = true
 
 [mcp_servers.github]
 url = "https://api.githubcopilot.com/mcp/"
