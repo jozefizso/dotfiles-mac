@@ -1,6 +1,7 @@
 brew "pure"
 
 cask "visual-studio-code"
+cask "1password-cli"
 cask "sublime-merge"
 cask "dotnet-sdk"
 cask "steipete/tap/codexbar"
@@ -10,7 +11,6 @@ brew "stow"
 
 brew "git"
 brew "gh"
-brew "1password-cli"
 brew "lsd"
 brew "fnm"
 brew "yarn"
