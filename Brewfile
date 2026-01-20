@@ -3,6 +3,7 @@ brew "pure"
 cask "visual-studio-code"
 cask "sublime-merge"
 cask "dotnet-sdk"
+cask "steipete/tap/codexbar"
 
 brew "coreutils"
 brew "stow"
