@@ -22,7 +22,7 @@ startup_timeout_sec = 120
 
 [mcp_servers.atlassian]
 command = "bunx"
-args = ["mcp-remote@0.1.31", "https://mcp.atlassian.com/v1/sse"]
+args = ["mcp-remote@0.1.37", "https://mcp.atlassian.com/v1/sse"]
 startup_timeout_sec = 120
 
 [notice]
