@@ -127,13 +127,13 @@ prompt pure
 
 alias k='lsd -la'
 
-# Claude CLI with GitHub token pulled from 1Password
+# Claude CLI with GitHub token pulled from `gh auth`
 claude() {
-  GITHUB_TOKEN_MCP="$(op read 'op://CLI/GITHUB_TOKEN_MCP/password')" command claude "$@"
+  GITHUB_TOKEN_MCP="$(gh auth token)" command claude "$@"
 }
-# Codex CLI with GitHub token pulled from 1Password
+# Codex CLI with GitHub token pulled from `gh auth`
 codex() {
-  GITHUB_TOKEN_MCP="$(op read 'op://CLI/GITHUB_TOKEN_MCP/password')" command codex "$@"
+  GITHUB_TOKEN_MCP="$(gh auth token)" command codex "$@"
 }
 
 # pnpm
