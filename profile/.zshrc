@@ -133,7 +133,11 @@ claude() {
 }
 # Codex CLI with GitHub token pulled from `gh auth`
 codex() {
-  GITHUB_TOKEN_MCP="$(gh auth token)" command codex "$@"
+  if [[ "$PWD" == "$HOME/Developer/Personal" || "$PWD" == "$HOME/Developer/Personal/"* ]]; then
+    CODEX_HOME="$HOME/.codex-personal" GITHUB_TOKEN_MCP="$(gh auth token -u jozefizso)" command codex "$@"
+  else
+    GITHUB_TOKEN_MCP="$(gh auth token)" command codex "$@"
+  fi
 }
 
 # pnpm
