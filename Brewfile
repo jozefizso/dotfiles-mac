@@ -26,3 +26,11 @@ brew "python3"
 brew "swiftlint"
 
 cask "font-jetbrains-mono-nerd-font"
+
+tap "shivammathur/php"
+brew "shivammathur/php/php@5.6"
+brew "shivammathur/php/php@7.0"
+brew "shivammathur/php/php@8.4"
+
+tap "shivammathur/extensions"
+brew "shivammathur/extensions/ssh2@8.4"
