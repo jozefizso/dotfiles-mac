@@ -1,8 +1,9 @@
 model = "gpt-5.2"
 model_reasoning_effort = "medium"
 
+web_search = "live"
+
 [features]
-web_search_request = true
 rmcp_client = true
 
 [sandbox_workspace_write]
