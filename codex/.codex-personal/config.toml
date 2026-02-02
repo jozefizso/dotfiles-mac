@@ -15,4 +15,10 @@ bearer_token_env_var = "GITHUB_TOKEN_MCP"
 
 [mcp_servers.context7]
 url = "https://mcp.context7.com/mcp"
-env_http_headers = { "CONTEXT7_API_KEY" = "CONTEXT7_API_KEY" }
+
+[mcp_servers.context7.env_http_headers]
+CONTEXT7_API_KEY = "CONTEXT7_API_KEY"
+
+[mcp_servers.nette-inspector]
+command = "php"
+args = ["vendor/bin/mcp-inspector"]
