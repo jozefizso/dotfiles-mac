@@ -1,7 +1,7 @@
 [user]
   name = Jozef Izso
   email = izso@cisco.com
-  signingkey = 1c650383a10551ffbf5b024016fc60c2e0647f0e
+  signingkey = f78913862859c452733856b4e9549d84599b5027
 
 [commit]
   gpgsign = true
