@@ -126,6 +126,7 @@ prompt pure
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias k='lsd -la'
+alias cls='clear'
 
 # Claude CLI with GitHub token pulled from `gh auth`
 claude() {
