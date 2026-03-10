@@ -10,3 +10,10 @@ export DOTNET_GENERATE_ASPNET_CERTIFICATE=0
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Jira
+
+export JIRA_SITE="sli-do.atlassian.net"
+export JIRA_EMAIL="izso@cisco.com"
+
+# acli jira auth login --site "$JIRA_SITE" --email "$JIRA_EMAIL" --token

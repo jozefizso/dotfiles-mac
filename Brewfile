@@ -27,6 +27,9 @@ brew "swiftlint"
 
 cask "font-jetbrains-mono-nerd-font"
 
+tap "atlassian/homebrew-acli"
+brew "atlassian/homebrew-acli/acli"
+
 tap "shivammathur/php"
 brew "shivammathur/php/php@5.6"
 brew "shivammathur/php/php@7.0"

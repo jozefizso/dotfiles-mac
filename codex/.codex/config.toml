@@ -22,11 +22,6 @@ bearer_token_env_var = "GITHUB_TOKEN_MCP"
 url = "https://mcp.sentry.dev/mcp"
 startup_timeout_sec = 120
 
-[mcp_servers.atlassian]
-command = "bunx"
-args = ["mcp-remote@0.1.37", "https://mcp.atlassian.com/v1/sse"]
-startup_timeout_sec = 120
-
 [notice]
 hide_gpt5_1_migration_prompt = true
 "hide_gpt-5.1-codex-max_migration_prompt" = true
