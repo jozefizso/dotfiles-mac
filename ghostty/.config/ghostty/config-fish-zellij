@@ -11,3 +11,7 @@ font-size = 11
 # Start Fish for this Ghostty profile only.
 # Ghostty can start with a minimal PATH, so use fish's Homebrew path directly.
 command = /opt/homebrew/bin/fish --login
+
+# Open the current working directory in VS Code from the shell prompt.
+keybind = "cmd+option+c=text:code .\r"
+keybind = "cmd+option+s=text:smerge .\r"
