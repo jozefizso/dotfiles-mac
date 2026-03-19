@@ -25,6 +25,8 @@ brew "cmake"
 brew "python3"
 brew "swiftlint"
 
+# Fonts
+cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 
 tap "atlassian/homebrew-acli"
