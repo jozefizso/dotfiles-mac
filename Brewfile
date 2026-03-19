@@ -29,6 +29,9 @@ brew "swiftlint"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+
 tap "atlassian/homebrew-acli"
 brew "atlassian/homebrew-acli/acli"
 
