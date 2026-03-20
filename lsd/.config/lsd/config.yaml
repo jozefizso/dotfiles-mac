@@ -15,6 +15,18 @@ blocks:
   - date
   - name
 
+# == Ignore Globs ==
+# A list of globs to ignore when listing.
+ignore-globs:
+  - .
+  - ..
+
+# == Layout ==
+# Which layout to use. "oneline" might be a bit confusing here and should be
+# called "one-per-line". It might be changed in the future.
+# Possible values: grid, tree, oneline
+layout: oneline
+
 # == Color ==
 # This has various color options. (Will be expanded in the future.)
 color:
