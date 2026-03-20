@@ -25,6 +25,13 @@ brew "cmake"
 brew "python3"
 brew "swiftlint"
 
+## Terminal
+cask "ghostty"
+brew "fish"
+brew "fisher"
+brew "zellij"
+brew "starship"
+
 # Fonts
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"

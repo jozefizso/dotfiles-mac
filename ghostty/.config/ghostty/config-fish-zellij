@@ -1,0 +1,13 @@
+# Opt-in Ghostty profile for a Fish + Starship + Zellij workflow.
+#
+# Launch with:
+#   ghostty --config-file=$HOME/.config/ghostty/config-fish-zellij
+#
+# This leaves your default login shell unchanged.
+
+font-family = "JetBrains Mono ExtraLight"
+font-size = 11
+
+# Start Fish for this Ghostty profile only.
+# Ghostty can start with a minimal PATH, so use fish's Homebrew path directly.
+command = /opt/homebrew/bin/fish --login

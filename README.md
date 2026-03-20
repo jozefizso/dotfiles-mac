@@ -25,3 +25,17 @@ The order of files being loaded by ZSH:
 | 3 | `.zshrc`    | interactive |
 | 4 | `.zlogin`   | login |
 | 5 | `.zlogout`  | exiting login shell |
+
+
+## Ghostty Fish Profile
+
+This repo includes an opt-in Ghostty profile that starts `fish`, initializes
+`starship`, and auto-attaches or creates a `zellij` session named `main`.
+
+Your default macOS login shell remains `zsh`.
+
+After running `./stow.sh`, launch the profile with:
+
+```commandline
+ghostty --config-file="$HOME/.config/ghostty/config-fish-zellij"
+```

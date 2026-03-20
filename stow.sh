@@ -11,3 +11,6 @@ stow codex -t "$HOME/"
 
 # Ghostty
 stow ghostty -t "$HOME/"
+
+# Fish shell
+stow fish -t "$HOME/"

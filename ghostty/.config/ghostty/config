@@ -9,3 +9,6 @@
 
 font-family = "JetBrains Mono ExtraLight"
 font-size = 11
+
+# Ghostty can start with a minimal PATH, so use fish's Homebrew path directly.
+command = /opt/homebrew/bin/fish --login
