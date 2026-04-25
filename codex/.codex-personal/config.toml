@@ -6,6 +6,7 @@ web_search = "live"
 
 [features]
 rmcp_client = true
+memories = true
 
 [sandbox_workspace_write]
 network_access = true
