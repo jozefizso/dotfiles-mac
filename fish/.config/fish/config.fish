@@ -11,3 +11,6 @@ if status is-interactive
     #     zellij attach --create main
     # end
 end
+
+string match -q "$TERM_PROGRAM" "vscode"
+and . (code --locate-shell-integration-path fish)
