@@ -35,6 +35,9 @@ brew "starship"
 ## Coding Agents
 brew "codex"
 
+tap "dot-agents/tap"
+brew "dot-agents/tap/dot-agents"
+
 
 # Fonts
 cask "font-jetbrains-mono"
