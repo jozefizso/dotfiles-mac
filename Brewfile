@@ -32,6 +32,10 @@ brew "fisher"
 brew "zellij"
 brew "starship"
 
+## Coding Agents
+brew "codex"
+
+
 # Fonts
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
