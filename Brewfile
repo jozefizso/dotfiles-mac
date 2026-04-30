@@ -38,17 +38,17 @@ brew "codex"
 tap "dot-agents/tap"
 brew "dot-agents/tap/dot-agents"
 
+tap "atlassian/homebrew-acli"
+brew "atlassian/homebrew-acli/acli"
 
-# Fonts
+## Fonts
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 
-tap "atlassian/homebrew-acli"
-brew "atlassian/homebrew-acli/acli"
-
+## PHP
 tap "shivammathur/php"
 brew "shivammathur/php/php@5.6"
 brew "shivammathur/php/php@7.0"
