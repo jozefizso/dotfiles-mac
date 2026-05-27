@@ -76,6 +76,7 @@
   unmerged = diff --name-only --diff-filter=U
   # Sync local main and fork main from upstream main
   sync = "!f() { current_branch=$(git symbolic-ref --quiet --short HEAD || true); git fetch upstream refs/heads/main:refs/remotes/upstream/main || return; if test \"$current_branch\" = main; then git merge --ff-only refs/remotes/upstream/main || return; else git fetch upstream refs/heads/main:refs/heads/main || return; fi; git push origin refs/heads/main:refs/heads/main && git fetch origin refs/heads/main:refs/remotes/origin/main; }; f"
+  resign = "!f() { base_ref=${1:-}; if test -z \"$base_ref\"; then for candidate in origin/main main origin/master master; do if git rev-parse --verify --quiet \"$candidate\" >/dev/null; then base_ref=$candidate; break; fi; done; fi; if test -z \"$base_ref\"; then echo \"Could not find a base ref. Pass one explicitly, for example: git resign origin/main\" >&2; return 1; fi; branch_point=$(git merge-base --fork-point \"$base_ref\" HEAD 2>/dev/null || git merge-base \"$base_ref\" HEAD) || { echo \"Could not find branch-out point against $base_ref\" >&2; return 1; }; git rebase --rebase-merges --exec \"git commit --amend --no-edit --gpg-sign --allow-empty\" \"$branch_point\"; }; f"
 
 
 [core]
