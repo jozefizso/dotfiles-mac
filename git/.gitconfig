@@ -74,7 +74,8 @@
   filetrail = log --follow -p -w
   mergetrail = log --ancestry-path --merges
   unmerged = diff --name-only --diff-filter=U
-  resign = commit --amend --no-edit --gpg-sign
+  # Sync local main and fork main from upstream main
+  sync = "!f() { current_branch=$(git symbolic-ref --quiet --short HEAD || true); git fetch upstream refs/heads/main:refs/remotes/upstream/main || return; if test \"$current_branch\" = main; then git merge --ff-only refs/remotes/upstream/main || return; else git fetch upstream refs/heads/main:refs/heads/main || return; fi; git push origin refs/heads/main:refs/heads/main && git fetch origin refs/heads/main:refs/remotes/origin/main; }; f"
 
 
 [core]
