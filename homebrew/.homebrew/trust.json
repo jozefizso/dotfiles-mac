@@ -1,0 +1,8 @@
+{
+  "trustedtaps": [
+    "atlassian/acli",
+    "hashicorp/tap",
+    "oven-sh/bun",
+    "shivammathur/php"
+  ]
+}
