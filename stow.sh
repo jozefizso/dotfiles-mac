@@ -14,3 +14,6 @@ stow ghostty -t "$HOME/"
 
 # Fish shell
 stow fish -t "$HOME/"
+
+# Homebrew shell
+stow homebrew -t "$HOME/"

@@ -4,5 +4,8 @@
     "hashicorp/tap",
     "oven-sh/bun",
     "shivammathur/php"
+  ],
+  "trustedformulae": [
+    "dotenvx/brew/dotenvx"
   ]
 }
