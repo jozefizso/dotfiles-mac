@@ -21,7 +21,7 @@ end
 
 function run-updates
   brew update
-  brew upgrade
+  brew upgrade -y
 
   claude update
   copilot update
