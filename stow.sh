@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 set -e
 
-stow git -t "$HOME/"
+stow "$@" git -t "$HOME/"
 
 # https://github.com/lsd-rs/lsd
-stow lsd -t "$HOME/"
+stow "$@" lsd -t "$HOME/"
 
 # https://developers.openai.com/codex/cli/
-stow codex -t "$HOME/"
+stow "$@" codex -t "$HOME/"
 
 # Ghostty
-stow ghostty -t "$HOME/"
+stow "$@" ghostty -t "$HOME/"
 
 # Fish shell
-stow fish -t "$HOME/"
+stow "$@" fish -t "$HOME/"
 
 # Homebrew shell
-stow homebrew -t "$HOME/"
+stow "$@" homebrew -t "$HOME/"

@@ -8,10 +8,12 @@ Run the `bootstrap.sh` script to setup `brew` and `fnm`.
 
 The script will automatically run `brew bundle` to install all applications.
 
-When using `oh-my-zsh` setup the autocompletions with:
+### Apply Configuration
+
+To initialize the configuration for the first time, run `stow` with the `--adopt` argument.
 
 ```commandline
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+./stow.sh --adopt
 ```
 
 ## ZSH Profile
@@ -26,6 +28,12 @@ The order of files being loaded by ZSH:
 | 4 | `.zlogin`   | login |
 | 5 | `.zlogout`  | exiting login shell |
 
+
+When using `oh-my-zsh` setup the autocompletions with:
+
+```commandline
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
 
 ## Ghostty Fish Profile
 
