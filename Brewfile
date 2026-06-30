@@ -33,7 +33,7 @@ brew "zellij"
 brew "starship"
 
 ## Coding Agents
-brew "codex"
+cask "codex"
 
 brew "beads"
 
