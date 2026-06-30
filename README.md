@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Run the `bootstrap.sh` script to setup `brew` and `nvm`.
+Run the `bootstrap.sh` script to setup `brew` and `fnm`.
 
 The script will automatically run `brew bundle` to install all applications.
 
