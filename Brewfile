@@ -17,6 +17,7 @@ brew "fnm"
 brew "yarn"
 brew "uv"
 
+brew "smimesign"
 brew "difftastic"
 brew "mergiraf"
 
