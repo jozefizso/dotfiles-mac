@@ -165,3 +165,6 @@
 
 [includeIf "gitdir/i:~/Developer/Personal/"]
   path = ~/.config/git/profile-personal.gitconfig
+
+[includeIf "gitdir/i:~/Developer/NetOfficeFw/"]
+ path = ~/.config/git/profile-personal.gitconfig
