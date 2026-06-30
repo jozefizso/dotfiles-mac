@@ -37,8 +37,8 @@ cask "codex"
 
 brew "beads"
 
-tap "atlassian/homebrew-acli"
-brew "atlassian/homebrew-acli/acli"
+tap "atlassian/homebrew-acli", trusted: true
+brew "atlassian/homebrew-acli/acli", trusted: true
 
 ## Fonts
 cask "font-jetbrains-mono"
@@ -48,10 +48,10 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 
 ## PHP
-tap "shivammathur/php"
-brew "shivammathur/php/php@5.6"
-brew "shivammathur/php/php@7.0"
-brew "shivammathur/php/php@8.4"
+tap "shivammathur/php", trusted: true
+brew "shivammathur/php/php@5.6", trusted: true
+brew "shivammathur/php/php@7.0", trusted: true
+brew "shivammathur/php/php@8.4", trusted: true
 
-tap "shivammathur/extensions"
-brew "shivammathur/extensions/ssh2@8.4"
+tap "shivammathur/extensions", trusted: true
+brew "shivammathur/extensions/ssh2@8.4", trusted: true
