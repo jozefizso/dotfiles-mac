@@ -10,6 +10,7 @@ brew "coreutils"
 brew "stow"
 
 brew "git"
+brew "git-lfs"
 brew "gh"
 brew "lsd"
 brew "fnm"
