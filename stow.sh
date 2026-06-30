@@ -12,6 +12,9 @@ stow "$@" codex -t "$HOME/"
 # Ghostty
 stow "$@" ghostty -t "$HOME/"
 
+# Z shell
+stow "$@" zsh -t "$HOME/"
+
 # Fish shell
 stow "$@" fish -t "$HOME/"
 
