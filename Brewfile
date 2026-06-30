@@ -37,9 +37,6 @@ cask "codex"
 
 brew "beads"
 
-tap "dot-agents/tap"
-brew "dot-agents/tap/dot-agents"
-
 tap "atlassian/homebrew-acli"
 brew "atlassian/homebrew-acli/acli"
 
