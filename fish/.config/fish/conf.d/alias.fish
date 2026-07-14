@@ -24,5 +24,7 @@ function run-updates
   brew upgrade -y
 
   claude update
-  copilot update
+  if command -q copilot
+    copilot update
+  end
 end
