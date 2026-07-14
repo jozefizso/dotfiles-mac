@@ -1,5 +1,5 @@
 function claude
-    env GITHUB_TOKEN_MCP="(gh auth token)" command claude --dangerously-skip-permissions $argv
+    env GITHUB_TOKEN_MCP="(gh auth token)" ANTHROPIC_MODEL="claude-sonnet-5" command claude --dangerously-skip-permissions $argv
 end
 
 function codex
