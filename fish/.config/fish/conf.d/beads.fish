@@ -1,1 +1,1 @@
-set -g BD_JSON_ENVELOPE '1'
+set -gx BD_JSON_ENVELOPE '1'
