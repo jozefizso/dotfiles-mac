@@ -4,3 +4,6 @@ fish_add_path --global --move --path \
     /opt/homebrew/sbin \
     /usr/local/bin \
     /usr/local/sbin
+
+# User local tools
+fish_add_path --global "$HOME/.local/bin"
