@@ -1,6 +1,6 @@
 [user]
-  name = Jozef Izso
-  email = jozef.izso@gmail.com
+	name = Jozef Izso
+	email = jozef.izso@gmail.com
 
 
 [alias]
@@ -168,3 +168,5 @@
 
 [includeIf "gitdir/i:~/Developer/NetOfficeFw/"]
  path = ~/.config/git/profile-personal.gitconfig
+[rebase]
+	updateRefs = true
