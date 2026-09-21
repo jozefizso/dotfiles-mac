@@ -10,7 +10,10 @@ if status is-interactive
     #     and not set -q SSH_TTY
     #     zellij attach --create main
     # end
+    # Allow GPG pinentry to use the current terminal.
+    set -gx GPG_TTY (tty)
 end
+
 
 string match -q "$TERM_PROGRAM" "vscode"
 and . (code --locate-shell-integration-path fish)
