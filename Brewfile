@@ -50,6 +50,9 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 
 ## PHP
+tap "phpenv/tap", trusted: true
+brew "phpenv/tap/phpenv", trusted: true
+
 tap "shivammathur/php", trusted: true
 brew "shivammathur/php/php@5.6", trusted: true
 brew "shivammathur/php/php@7.0", trusted: true
