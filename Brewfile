@@ -5,6 +5,7 @@ cask "1password-cli"
 cask "sublime-merge"
 cask "dotnet-sdk"
 cask "steipete/tap/codexbar"
+cask "monitorcontrol"
 
 brew "coreutils"
 brew "stow"
@@ -56,6 +57,9 @@ brew "phpenv/tap/phpenv", trusted: true
 tap "shivammathur/php", trusted: true
 brew "shivammathur/php/php@5.6", trusted: true
 brew "shivammathur/php/php@7.0", trusted: true
+brew "shivammathur/php/php@7.1", trusted: true
+brew "shivammathur/php/php@7.2", trusted: true
+brew "shivammathur/php/php@7.4", trusted: true
 brew "shivammathur/php/php@8.4", trusted: true
 
 tap "shivammathur/extensions", trusted: true
