@@ -1,0 +1,20 @@
+modelRoles:
+  advisor: anthropic/claude-opus-5-5:xhigh
+  slow: openai-codex/gpt-6-sol:medium
+  plan: anthropic/claude-opus-5-5:medium
+  default: openai-codex/gpt-6-luna:medium
+  smol: openai-codex/gpt-6-luna:low
+  vision: openai-codex/gpt-6-sol:max
+  SECURITY: openai-codex/gpt-daybreak-blue-latest
+symbolPreset: nerd
+theme:
+  dark: titanium
+  light: light
+setupVersion: 2
+task:
+  agentModelOverrides:
+    security-reviewer: openai-codex/gpt-daybreak-blue-latest
+  agentAdvisor:
+    security-reviewer: "on"
+dev:
+  autoqaConsent: granted

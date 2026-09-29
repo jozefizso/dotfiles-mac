@@ -20,3 +20,6 @@ stow "$@" fish -t "$HOME/"
 
 # Homebrew shell
 stow "$@" homebrew -t "$HOME/"
+
+# omp
+stow "$@" omp -t "$HOME/"
