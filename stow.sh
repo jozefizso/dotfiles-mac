@@ -23,3 +23,6 @@ stow "$@" homebrew -t "$HOME/"
 
 # omp
 stow "$@" omp -t "$HOME/"
+
+# Herdr
+stow "$@" herdr -t "$HOME/"
