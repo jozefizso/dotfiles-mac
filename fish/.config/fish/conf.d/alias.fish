@@ -1,7 +1,3 @@
-function claude
-    env GITHUB_TOKEN_MCP="(gh auth token)" ANTHROPIC_MODEL="claude-opus-5-5" command claude --dangerously-skip-permissions $argv
-end
-
 function codex
     if string match -q -- "$HOME/Developer/Personal*" "$PWD"
         env CODEX_HOME="$HOME/.codex-personal" GITHUB_TOKEN_MCP="(gh auth token -u jozefizso)" command codex --yolo $argv
